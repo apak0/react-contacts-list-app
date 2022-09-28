@@ -1,0 +1,50 @@
+#container{
+    width: 400px;
+    background-color: aliceblue;
+    padding: 20px;
+    
+}
+
+input{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 3px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.list{
+    margin: 15px 0;
+}
+
+.list > li{
+    background-color: antiquewhite;
+    padding: 5px;
+    margin-bottom: 2px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    background-color: rgb(219, 237, 81);
+    padding: 5px;
+    margin-top: 3px;
+    font-weight: 700;
+    float: right;
+    width: 25%;
+    
+    
+}
+p::first-letter{
+    color: crimson;
+    font-weight: 500;
+    
+   
+}
